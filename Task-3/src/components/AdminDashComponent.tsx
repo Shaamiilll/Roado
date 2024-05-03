@@ -9,7 +9,7 @@ function AdminDashComponent() {
   return (
     <div>
       <Header />
-      {/* Container for Statistics component */}
+      {/* Container for Statistics component or charjs */}
       <div style={{ marginTop: "20px" }}>
         <Statistics />
       </div>

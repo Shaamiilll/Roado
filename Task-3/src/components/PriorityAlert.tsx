@@ -2,7 +2,7 @@ import React from "react";
 
 function PriorityAlert() {
   return (
-    <div className="p-7">
+    <div >
       <div className="flex justify-between mb-3">
         <h1 className="font-semibold text-xl text-start">
           High Priority Alert

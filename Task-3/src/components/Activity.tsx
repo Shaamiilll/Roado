@@ -8,7 +8,7 @@ function Activity() {
   return (
     <>
       {/* Container for activity details */}
-      <div className="p-3 ">
+      <div className="p-3">
         <TodaysHighight />
         <CompletedActivity />
         <ScheduledActivity />

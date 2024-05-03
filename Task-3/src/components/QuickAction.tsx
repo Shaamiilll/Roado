@@ -2,9 +2,9 @@ import React from "react";
 
 function QuickAction() {
   return (
-    <div className="p-6 stroke-3">
+    <div className=" stroke-3">
       <h1 className="font-semibold text-xl text-start">Quick Action</h1>
-      <div className="bg-white  py-7 shadow-xl mt-2 rounded-xl flex justify-around">
+      <div className="bg-white w-full  py-8 shadow-xl mt-2 rounded-xl flex justify-around">
         <div className="flex flex-col items-center ">
           <svg
             width="25"
