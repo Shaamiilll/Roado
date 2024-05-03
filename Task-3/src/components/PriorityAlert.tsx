@@ -7,7 +7,7 @@ function PriorityAlert() {
         <h1 className="font-semibold text-xl text-start">
           High Priority Alert
         </h1>
-        <a href="">View All > </a>
+        <a href="">View All  </a>
       </div>
       <div className="flex justify-between mt-4">
         <div className=" bg-white rounded-2xl shadow-xl">
