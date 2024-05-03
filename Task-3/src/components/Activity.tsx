@@ -1,6 +1,7 @@
 import React from 'react'
 import TodaysHighight from './TodaysHighight'
 import CompletedActivity from './CompletedActivity'
+import ScheduledActivity from './ScheduledActivity'
 
 function Activity() {
   return (
@@ -8,6 +9,7 @@ function Activity() {
     <div className="p-3 ">
     <TodaysHighight/>
     <CompletedActivity/>
+    <ScheduledActivity/>
     </div>
     </>
   )
