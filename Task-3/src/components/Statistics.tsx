@@ -22,7 +22,7 @@ function Statistics({ title }) {
 
     // Chart configuration for a doughnut chart
     const configPie = {
-      type: "doughnut", // Changed type to doughnut
+      type: "doughnut", // Changed type to doughnut , you can make intp anyone like graph or anything
       data: dataPie,
       options: {
         plugins: {

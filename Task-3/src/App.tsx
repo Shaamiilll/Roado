@@ -1,15 +1,13 @@
-import './App.css'
-import Highlight from './components/Highlight'
-import Sidebar from './components/SidebarComponent'
-import AdminDashboardPage from './pages/AdminDashboardPage'
+import "./App.css";
+import AdminDashboardPage from "./pages/AdminDashboardPage";
 
 function App() {
-
   return (
     <>
-    <AdminDashboardPage/>
+      {/* Render the AdminDashboardPage component to display the admin dashboard. */}
+      <AdminDashboardPage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

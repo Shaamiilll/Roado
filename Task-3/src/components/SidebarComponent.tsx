@@ -1,9 +1,11 @@
-import React from "react";
 
 function SidebarComponent() {
   return (
     <div className="flex bg-gray-100 text-gray-900">
       <aside className="flex h-screen w-20 flex-col items-center -200 bg-white">
+
+        {/* Main Logo */}
+
         <div className="flex h-[4.5rem] w-full items-center justify-center  p-2">
           <svg
             width="32"
@@ -17,6 +19,8 @@ function SidebarComponent() {
             <circle cx="16" cy="10" r="9" stroke="#2429A9" stroke-width="2" />
           </svg>
         </div>
+
+        {/* navbar starting */}
 
         <nav className="flex flex-1 flex-col gap-y-3 pt-2">
           <a
@@ -309,6 +313,9 @@ function SidebarComponent() {
             </div>
           </a>
         </nav>
+
+        {/* Navbar ending */}
+
       </aside>
     </div>
     
