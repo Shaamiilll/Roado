@@ -1,8 +1,15 @@
 import React from 'react'
+import TodaysHighight from './TodaysHighight'
+import CompletedActivity from './CompletedActivity'
 
 function Activity() {
   return (
-    <div>Activity</div>
+    <>
+    <div className="p-3 ">
+    <TodaysHighight/>
+    <CompletedActivity/>
+    </div>
+    </>
   )
 }
 
