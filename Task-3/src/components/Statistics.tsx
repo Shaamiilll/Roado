@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import Chart from "chart.js/auto"; // Import Chart.js library
 
 function Statistics({ title }) {
