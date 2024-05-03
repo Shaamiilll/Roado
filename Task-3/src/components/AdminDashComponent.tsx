@@ -11,10 +11,10 @@ function AdminDashComponent() {
       <div style={{ marginTop: "20px" }}>
         <Statistics />
       </div>
-      <div style={{ marginTop: "20px" }}>
+      <div style={{ marginTop: "0px" }}>
         <QuickAction />
       </div>
-      <div style={{ marginTop: "20px" }}>
+      <div style={{ marginTop: "0px" }}>
         <PriorityAlert />
       </div>
     </div>
