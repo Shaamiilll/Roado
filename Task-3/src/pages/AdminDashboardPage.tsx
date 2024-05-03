@@ -1,6 +1,7 @@
-import AdminDashComponent from '../components/AdminDashComponent';
-import Highlight from '../components/Highlight';
-import Sidebar from '../components/SidebarComponent';
+import Activity from "../components/Activity";
+import AdminDashComponent from "../components/AdminDashComponent";
+import Highlight from "../components/Highlight";
+import Sidebar from "../components/SidebarComponent";
 
 function AdminDashboardPage() {
   return (
@@ -8,9 +9,10 @@ function AdminDashboardPage() {
       <div>
         <Sidebar />
       </div>
-      <div className="bg-sky-50 w-full">
-        <AdminDashComponent/>
+      <div className="bg-sky-50 w-9/12 p-7">
+        <AdminDashComponent />
       </div>
+      <Activity />
     </div>
   );
 }

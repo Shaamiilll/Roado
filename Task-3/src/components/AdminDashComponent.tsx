@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from './Header'
+import Statistics from './Statistics'
 
 function AdminDashComponent() {
   return (
-    <div className=''>
-        hy
+    <div>
+        <Header/>
+        <Statistics/>
     </div>
   )
 }
